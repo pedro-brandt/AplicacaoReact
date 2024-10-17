@@ -1,0 +1,23 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+}
+
+.menu-container{
+    background-color: rgb(147, 198, 234);
+}
+
+
+.menu-container{
+    display: flex;
+   text-align: center;
+}
+.bt button{
+    display: inline-block;
+ 
+}
+.bts{
+    margin: 1rem;
+    display: flex;
+    gap: 10;
+}
