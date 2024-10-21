@@ -21,6 +21,7 @@
     display: flex;
     gap: 10;
 }
-.img{
+img{
     float: right;
+    margin: right;
 }

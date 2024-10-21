@@ -1,6 +1,6 @@
 import "../Home/Home.css"
 
-function Home() {
+export default function Home() {
   return (
     <div className="App-pai">
 
