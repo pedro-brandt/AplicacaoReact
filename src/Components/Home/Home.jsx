@@ -16,8 +16,9 @@ export default function Home() {
      <br></br>
 
      <div className="bts">
-     <button id="bt3">Login</button>
-     <button id="bt4" >Cadastro</button>
+     <button onClick={() => navigate("APLICACAOREACT/dist/src/Components/Login")} id="bt3">Login</button>
+     //useNavigate()=useNavigate();
+     <button onClick={() => navigate("APLICACAOREACT/dist/src/Components/Cadastro")} id="bt4" >Cadastro</button>
      </div>
      </div>
      </div>
