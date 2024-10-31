@@ -1,14 +1,22 @@
-export default function Login() {
+import React from "react";
+
+const Login = () => {
     return (
-      <div class name="login">
-          <h2>Login</h2>
+        <div className="login">
+            <h2>Login</h2>
+            <form>
+                <p>Digite os seus dados de acesso.</p>
+                <label htmlFor="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required />
+                
+                <label htmlFor="senha">Senha:</label>
+                <input type="password" id="senha" name="senha" required />
+                
+                <input type="submit" value="Salvar" />
+            </form>
+        </div>
+    );
   
-          <form>
-          <p>Digite os seus dados de acesso.</p>
-          <label for="nome">Nome:</label>
-          <label for="senha">Senha:</label>
-          <input type="submit" value="Salvar"></input>
-          </form>
-      </div>
-    )
-  }
+};
+
+export default Login;

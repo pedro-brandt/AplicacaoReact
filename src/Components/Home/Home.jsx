@@ -1,4 +1,5 @@
 import "../Home/Home.css"
+import React from "react";
 
 export default function Home() {
   return (
@@ -16,9 +17,11 @@ export default function Home() {
      <br></br>
 
      <div className="bts">
-     <button onClick={() => navigate("APLICACAOREACT/dist/src/Components/Login")} id="bt3">Login</button>
-     //useNavigate()=useNavigate();
-     <button onClick={() => navigate("APLICACAOREACT/dist/src/Components/Cadastro")} id="bt4" >Cadastro</button>
+  
+  
+
+     <button  id="bt4" >Cadastro</button>
+
      </div>
      </div>
      </div>
