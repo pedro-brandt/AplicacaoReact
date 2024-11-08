@@ -1,6 +1,8 @@
 import "../Home/Home.css"
 import React from "react";
 
+import { Link } from "react-router-dom";
+
 export default function Home() {
   return (
 
@@ -20,7 +22,10 @@ export default function Home() {
   
   
 
-     <button  id="bt4" >Cadastro</button>
+     <button  id="bt4" >
+    <Link to="/cadastro" >Cadastro</Link> </button>
+
+     <button  id="bt4" >Login</button>
 
      </div>
      </div>

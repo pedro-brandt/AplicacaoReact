@@ -1,4 +1,7 @@
-export default function Cadastro() {
+
+import React from "react"
+
+const Cadastro =()  =>{
   return (
     <div class name="cadastro">
         <h2>Cadastro</h2>
@@ -13,3 +16,4 @@ export default function Cadastro() {
     </div>
   )
 }
+export  default Cadastro
