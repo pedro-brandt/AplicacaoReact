@@ -8,6 +8,7 @@ const Cadastro =()  =>{
 
         <form>
         <p>Insira seus dados para cadastro.</p>
+
         <label htmlFor="nome">Nome:</label>
         <label htmlFor="senha">Senha:</label>
         <label htmlFor="confirmação">Confirme a senha:</label>
@@ -15,5 +16,7 @@ const Cadastro =()  =>{
         </form>
     </div>
   ) 
+
+
 }
 export  default Cadastro
