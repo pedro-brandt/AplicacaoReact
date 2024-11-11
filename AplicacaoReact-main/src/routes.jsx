@@ -4,7 +4,6 @@ import LoginPage from "./Pages/LoginPage";
 import HomePage from "./Components/Home/Home";
 import CadastroPage from "./Pages/CadastroPage";
 
-
 function AppRoutes() {
     return (
         <Router>

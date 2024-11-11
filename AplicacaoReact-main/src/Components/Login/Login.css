@@ -1,14 +1,14 @@
-*{
-    margin: 0 auto;
-    padding: 0;
+.login{  
+    background-color: rgb(28, 183, 249);
 }
 
-.menu-container{
-    background-color: rgb(147, 198, 234);
-    display: flex;
+H2{
+    font-size: large;
     text-align: center;
+    font-size: 26px;
 }
-button{
+
+label{
         background-color: #04AA6D;
         border: none;
         color: white;
@@ -20,6 +20,29 @@ button{
         cursor: pointer;
         display: inline-block;
 }
-.label{
+
+
+
+.txInformacoes{
     font-size: large;
+    text-align: center;
+}  
+
+textarea {
+    margin: 5px 0;
+    width: 200px;
+    height: 20px
+  }
+
+#bt8{
+    background-color: #f11101;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    display: inline-block;
 }

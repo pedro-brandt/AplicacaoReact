@@ -1,3 +1,4 @@
+
 import "../Home/Home.css"
 import React from "react";
 
@@ -27,8 +28,6 @@ export default function Home() {
 
      <button  id="bt4">
       <Link to="/login" > Login</Link></button> 
-
-    ajustar 
 
      </div>
      </div>
@@ -74,4 +73,5 @@ export default function Home() {
      </div>
   );
 }
+
 
