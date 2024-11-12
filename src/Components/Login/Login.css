@@ -1,4 +1,4 @@
-.login{  
+.login1{  
     background-color: rgb(137, 171, 186);
 }
 
@@ -34,7 +34,7 @@
     display: inline-block;
 }
 
-.txInformacoes{
+#txInformacoes{
     font-size: large;
     text-align: center;
 }  
