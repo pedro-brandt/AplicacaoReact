@@ -38,7 +38,26 @@ export default function Home() {
             </form>
             </button> 
 
-      const [buttonVisibility setButtonVisibility] = useState(false);*/}
+      const [buttonVisibility setButtonVisibility] = useState(false);
+//////////////////////////////
+<button id="bProdutos">Produtos
+        <li><a>produtos alimenticios</a></li>
+        <li><a>automoveis</a></li>
+        <li><a>itens de beleze</a></li>
+        <li><a>joias</a></li>
+        <li><a>vestimentas</a></li>
+</button>*/}
+
+<select className="prod">
+  <option value="produtos">Produtos</option>
+  <option value="automoveis">Automoveis</option>
+  <option value="beleza">Itens de beleza</option>
+  <option value="joias">Joias</option>
+  <option value="roupas">Itens de vestimenta</option>
+  <option value="games">Games</option>
+</select> 
+    
+
     
      </div>
      </div>
@@ -78,6 +97,14 @@ export default function Home() {
           <img src="https://blog.damasemijoias.com.br/wp-content/uploads/2017/08/como-organizar-um-estoque-de-semijoias-aprenda-810x485.jpeg" width={400} height={200}></img>
           <p>Joias</p>
           </div>
+     </div>
+     <br></br>
+     <div className="contato">
+            <h2>Entre em contato conosco em:</h2>
+            <br></br>
+            <br></br>
+            <p>Whatsap:8873****</p>
+            <p>Email: PGEstoque@gmail.com</p>
      </div>
      </div>
 
