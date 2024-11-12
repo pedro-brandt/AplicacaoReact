@@ -29,6 +29,9 @@ export default function Home() {
      <button  id="bt4">
       <Link to="/login" > Login</Link></button> 
 
+      <button id="bt4" >Produtos</button>
+      
+
      </div>
      </div>
      </div> 
