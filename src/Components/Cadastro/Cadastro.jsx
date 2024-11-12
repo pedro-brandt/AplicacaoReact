@@ -20,6 +20,8 @@ const Cadastro =()  =>{
         <input  className="salvar" type="submit" value="Salvar"></input>
         <button  id="bt8">
         <Link to="/login" > Login</Link></button> 
+        <button  id="bt8">
+        <Link to="/" >Inicio</Link></button> 
         </form>
     </div>
   ) 

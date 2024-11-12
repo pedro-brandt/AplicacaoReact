@@ -1,5 +1,5 @@
 .login1{  
-    background-color: rgb(137, 171, 186);
+    background-color: rgb(147, 198, 234);
 }
 
 .LoginT{
@@ -56,4 +56,9 @@ textarea {
     margin: 4px 2px;
     cursor: pointer;
     display: inline-block;
+}
+
+.contato2{
+    background-color: rgb(147, 198, 234);
+    text-align: center;
 }

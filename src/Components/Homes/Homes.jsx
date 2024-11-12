@@ -1,14 +1,10 @@
-
-import "../Home/Home.css"
+import "../Homes/Homes.css"
 import React from "react";
 
 import { Link } from "react-router-dom";
 
-export default function Home() {
+export default function Homes() {
   return (
-
-<body className="corpoMenu">
-  
 
     <div className="App-container">
 
@@ -50,6 +46,16 @@ export default function Home() {
         <li><a>joias</a></li>
         <li><a>vestimentas</a></li>
 </button>*/}
+
+<select className="prod">
+  <option value="produtos">Produtos</option>
+  <option value="automoveis">Automoveis</option>
+  <option value="beleza">Itens de beleza</option>
+  <option value="joias">Joias</option>
+  <option value="roupas">Itens de vestimenta</option>
+  <option value="games">Games</option>
+</select> 
+    
 
     
      </div>
@@ -102,7 +108,6 @@ export default function Home() {
      </div>
 
      </div>
-     </body>
   );
 }
 
